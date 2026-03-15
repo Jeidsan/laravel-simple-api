@@ -9,3 +9,4 @@ Route::get('/clients/{id}', [ApiController::class, 'getClientById']);
 Route::post('/client', [ApiController::class, 'client']);
 
 Route::post('/clients', [ApiController::class, 'addClient']);
+Route::put('/clients', [ApiController::class, 'updateClient']);
