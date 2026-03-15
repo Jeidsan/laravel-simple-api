@@ -10,3 +10,4 @@ Route::post('/client', [ApiController::class, 'client']);
 
 Route::post('/clients', [ApiController::class, 'addClient']);
 Route::put('/clients', [ApiController::class, 'updateClient']);
+Route::delete('/clients/{id}', [ApiController::class, 'deleteClient']);
